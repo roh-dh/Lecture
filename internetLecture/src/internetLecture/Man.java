@@ -36,12 +36,12 @@ public class Man {
 	
 	
 	public void buyCoffee(int count){
-//		this.amount -= this.coffee * count; //¸®ÆÑÅä¸µ Ä¿ÇÇ°¡°İÀº °¡°İÀ¸·Î »¬¼öÀÖ¾î
+//		this.amount -= this.coffee * count; //ï¿½ï¿½ï¿½ï¿½ï¿½ä¸µ Ä¿ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½
 		this.subAmount(coffee, count);
 	}
 	
 	public void buyDonut(int count){
-//		this.amount -= this.donut * count;   //¸®ÆÑÅä¸µ µµ³Ó°¡°İÀº °¡°İÀ¸·Î »¬¼öÀÖ¾î
+//		this.amount -= this.donut * count;   //ï¿½ï¿½ï¿½ï¿½ï¿½ä¸µ ï¿½ï¿½ï¿½Ó°ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½
 		this.subAmount(donut, count);
 	}
 
@@ -49,7 +49,7 @@ public class Man {
 	private void subAmount(int price, int count){
 		this.amount -= price * count +(price * count) * 0.1;
 	}	public String toString() {
-		return this.name + "´ÔÀÇ ÀÜ¾×Àº : "+ this.amount+"¿øÀÔ´Ï´Ù.";
+		return this.name + "ì˜ ì”ì•¡ì€ : "+ this.amount+"ì…ë‹ˆë‹¤.";
 	}
 	
 	public static void main(String[] args) {
